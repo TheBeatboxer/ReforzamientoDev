@@ -1,8 +1,13 @@
 //Aca todos tocan es dev (desarrollo - staging)
+
 let name = "martin";
 
-function suma (a,b)
-{
- return a+b;
+function suma(a, b) {
+    return a + b;
 }
-let name="abdias"
+
+function resta(a, b) {
+    return a - b;
+}
+
+console.log(resta(10, 5));
